@@ -1,8 +1,19 @@
 package ProjectDemo;
 
+/*1. length()
+2. charAt()
+3. indexOf()
+4. SubString()
+5. equal/equalsIgnoreCase() - String Comparison 
+6. trim()
+7. replace()
+8. split()
+9. concat()
+10. String Concatenation using + operator*/
+
 class String_operations {
 
-//Get length of the string
+//1. Get length of the string
 
 	public static void main(String[] args) {
 
@@ -16,7 +27,7 @@ class String_operations {
 	}
 }
 
-//Join Two Strings(We can join two strings in Java using the concat() method.)
+//2.Join Two Strings(We can join two strings in Java using the concat() method.)
 class Main {
 	public static void main(String[] args) {
 
@@ -54,6 +65,6 @@ class Main3 {
     System.out.println("Strings first and third are equal: " + result2);
   }
 }
-Class Main4 extends DuplicateElements{
+Class Main4 extends Duplicate_characters_string{
 	//Find duplicate character in string(Check program DuplicateElements.java)
 }
