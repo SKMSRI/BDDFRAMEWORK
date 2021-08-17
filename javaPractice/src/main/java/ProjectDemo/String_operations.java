@@ -24,6 +24,7 @@ class String_operations {
 		// get the length of greet
 		int length = greet.length();
 		System.out.println("Length: " + length);
+		System.out.println("<<==================>>");
 	}
 }
 
@@ -49,22 +50,39 @@ class Main {
 //In Java, we can make comparisons between two strings using the equals() method. For example,
 
 class Main3 {
-  public static void main(String[] args) {
+	public static void main(String[] args) {
 
-    // create 3 strings
-    String first = "java programming";
-    String second = "java programming";
-    String third = "python programming";
+		// create 3 strings
+		String first = "java programming";
+		String second = "java programming";
+		String third = "python programming";
 
-    // compare first and second strings
-    boolean result1 = first.equals(second);
-    System.out.println("Strings first and second are equal: " + result1);
+		// compare first and second strings
+		boolean result1 = first.equals(second);
+		System.out.println("Strings first and second are equal: " + result1);
 
-    // compare first and third strings
-    boolean result2 = first.equals(third);
-    System.out.println("Strings first and third are equal: " + result2);
-  }
+		// compare first and third strings
+		boolean result2 = first.equals(third);
+		System.out.println("Strings first and third are equal: " + result2);
+	}
 }
-Class Main4 extends Duplicate_characters_string{
-	//Find duplicate character in string(Check program DuplicateElements.java)
+
+//SwapWithoutTemp in string
+class SwapWithoutTemp {
+	public static void main(String args[]) {
+		String a = "Love";
+		String b = "You";
+		System.out.println("Before swap: " + a + " " + b);
+		// 1. append a and b
+		a = a + b;// Love you
+		// 2.store initial value of string a in string b
+		b = a.substring(0, a.length() - b.length());
+		// 3.store initial value of string a in string b
+		a = a.substring(b.length());
+		System.out.println("After : " + a + " " + b);
+	}
 }
+///Swap two integers without using temp/third variable
+
+//Class Main4 extends Duplicate_characters_string{
+// Find duplicate character in string(Check program DuplicateElements.java)

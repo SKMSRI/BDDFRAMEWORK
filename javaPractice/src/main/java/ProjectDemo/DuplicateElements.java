@@ -33,8 +33,8 @@ public class DuplicateElements {
 
 		// 3. Using HashMap:o(2n)
 
-		/*Map<String, Integer> storeMap = new HashMap<String, Integer>();
-		for (String name : names) {
+		Map<String, Integer> storeMap = new HashMap<String, Integer>();
+		for (String names : name) {
 			Integer count = storeMap.get(name);
 			if (count == null) {
 				storeMap.put(name, 1);
@@ -49,7 +49,7 @@ public class DuplicateElements {
 			if(entry.getValue()>1) {
 				System.out.println("HashMpa solution:"+ entry.getValue);
 			}
-		}*/
+		}
 	}
 
 }
