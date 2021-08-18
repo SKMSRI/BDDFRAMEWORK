@@ -1,7 +1,7 @@
 package ProjectDemo;
 
-public class Duplicate_characters_string {
-
+public class String_Duplicate_characters {
+	
 	public static void main(String[] args) {
 		String string1 = "Great responsibility";
 		int count;
@@ -42,3 +42,5 @@ public class Duplicate_characters_string {
  * characters with frequency more than 1. 5.Print these characters with their
  * respective frequencies
  */
+
+
