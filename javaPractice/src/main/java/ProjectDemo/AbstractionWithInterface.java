@@ -25,7 +25,8 @@ public class AbstractionWithInterface {
 		      System.out.println("Lion eats");
 		   }
 		}
-		
+//Abstraction is the process of hiding certain details and showing only essential information to the user.
+//	Abstraction can be achieved with either abstract classes or interfaces (		
 //Abstract class can have abstract and non-abstract methods.
 //doesn't support multiple inheritance.
 //	can have final, non-final, static and non-static variables.

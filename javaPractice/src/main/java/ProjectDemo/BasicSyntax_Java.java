@@ -26,4 +26,17 @@ public class BasicSyntax_Java {
 	Logical values: boolean
 	Symbolic values (for representing letters and numerals): char	*/
 	
+	===================================
+/*			public static void main(String args[])
+			
+			pubic:- it's an access Modifier which tells who can access the methods.
+			Static:- It's a keyword for declaring methods and class variables used to work with the class.
+			void:- it's return type, it means that the method will not return anything.
+			Main :- it's name of the method . If you have many methods, main is the one that is executed.
+			String:- it's defining a string array to pass arguments at command line.
+			args[]:- it's a variable name of string array. It can be changed to anything such as integer.
+			*/
+	=============================================
+	
+			
 }
