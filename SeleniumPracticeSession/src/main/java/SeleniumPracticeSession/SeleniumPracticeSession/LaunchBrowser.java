@@ -15,7 +15,7 @@ public class LaunchBrowser {
 //			driver.get("https://www.google.com");
 		// chromeDriver
 		System.setProperty("webdriver.chrome.driver",
-				"C:/SAURABH/Workspace/SeleniumPracticeSessions/ChromeDriver/chromedriver.exe");
+				"C:\\SAURABH\\Workspace\\SeleniumPracticeSession\\Driver\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();// lauchchrome
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
