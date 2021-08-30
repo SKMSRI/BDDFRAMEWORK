@@ -15,6 +15,7 @@ public class DropdownHandle {
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
+		
 
 	}
 }

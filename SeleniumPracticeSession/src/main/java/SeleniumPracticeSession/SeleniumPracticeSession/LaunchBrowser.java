@@ -20,7 +20,7 @@ public class LaunchBrowser {
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
-		driver.get("https://www.google.com");
+		driver.get("https://classic.freecrm.com/index.html");
 		String title = driver.getTitle();// Get Title
 		System.out.println(title);
 		// Validation point
