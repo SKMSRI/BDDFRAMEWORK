@@ -11,6 +11,6 @@ public class DynamicXpath {
 			"C:\\SAURABH\\Workspace\\SeleniumPracticeSession\\Driver\\chromedriver.exe");
 	WebDriver driver = new ChromeDriver();// lauchchrome
 	driver.get("https://www.cricbuzz.com/");
-	//driver.findElement(By.xpath("")).click();
+	driver.findElement(By.xpath("//a[@class ='cb-nws-hdln-ancr text-hvr-underline']")).click();
 }
 }

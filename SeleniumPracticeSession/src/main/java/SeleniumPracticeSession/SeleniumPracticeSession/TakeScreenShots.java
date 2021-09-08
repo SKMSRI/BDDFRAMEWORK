@@ -32,3 +32,7 @@ public class TakeScreenShots {
 		FileUtils.copyFile(s, new File("C:\\SAURABH\\Workspace\\SeleniumPracticeSessions\\Screenshots.png"));
 	}
 }
+
+//1. First covert get screenshot Method to convert take screenshot interface
+//2. copy the screenshot to desired location using copyfileMethod(FileUtils.copyFile)
+
